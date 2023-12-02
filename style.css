@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@300;500&family=Sarabun:wght@100;300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Noto Sans Thai Looped', sans-serif;
+    font-family: 'Sarabun', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+div{
+    font-size: 30px;
+}
+body{
+    background-color:aliceblue;
+}
+
+.border{
+    border: 1px solid red;
+}
+.bg{
+    background-color: aqua;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-white{
+    background-color: white;
+}
+
+
+.flex{
+    display: flex;
+}
+.just-around{
+    justify-content: space-around;
+}
+.just-center{
+    justify-content: center;
+}
+.just-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.gap{
+    gap: 30px;
+}
+.gap20{
+    gap: 20px;
+}
+.gap10{
+    gap: 10px;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+.padding-left-20{
+    padding-left: 20px;
+}
+.padding20px{
+    padding-block: 10px;
+}
+.padding{
+    padding: 20px;
+}
+.width80{
+    width: 80%;
+    margin: auto;
+}
+.width50{
+    width: 50%;
+}
+.width10{
+    width: 10%;
+}
+.width20{
+    width: 20%;
+}
+.width30{
+    width: 30%;
+}
